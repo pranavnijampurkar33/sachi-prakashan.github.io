@@ -1,0 +1,66 @@
+html,body{
+	height:100%;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+.btn{
+	transition: all 0.4s ease-in-out;
+}
+
+@media(max-width:768px){
+	#header {
+		text-align: center;	
+	}
+	#header img{
+		margin: 0 auto;S
+	}
+}
+
+.navbar {
+	background-color:rgba(21,31,33,0.5);			/* last 0.5 shows transparency*/
+	border-bottom:1px solid #dedede;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+.navbar .nav .nav-item .nav-link {
+	color: #fff;
+}
+
+.navbar .nav .nav-item .nav-link:hover {
+	color: #5ac1f4;
+}
+.navbar-toggler {
+	color: white;
+}
+
+/*HEADER*/
+#header{
+	background:url('../img/stars-bg.jpg') center center no-repeat;
+	background-size:cover;
+	height:100%;
+	color:#af2121;	
+	display:flex;
+	align-items:center;
+}
+
+#header img {
+	padding:0 0 20ps;
+	width:80%;
+	
+}
+#header .header-right {				
+	background-color: rgba(0,0,0,0.5);
+	padding: 30px;
+	border-radius: 10px;
+}
+#header .fa {
+	margin: 5% 0;
+	
+}
+#header a .fa{
+	color: white;
+}
+
+#header a .fa:hover{
+	color: lightblue;
+
+
