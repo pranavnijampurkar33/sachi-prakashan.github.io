@@ -290,3 +290,7 @@ html,body{
     .short-text { display: inline-block; }
     .full-text { display: none; }
 }
+
+.authors-text {
+    color: #0275d8
+}
