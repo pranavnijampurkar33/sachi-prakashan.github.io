@@ -14,8 +14,25 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.css">   <!-- For using fonts -->
     <link rel="stylesheet" href="css/animate.min.css">               <!-- Animate.css added->wow.min.js dependent on animate.css
     Only min files are reqd -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
+
+
+  <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+        <!-- Google font -->
+        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,600,600i,700,700i,900">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i"> -->
+        <!-- Bootstrap -->
+		<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> -->
+        <!-- icofont -->
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionic/1.3.2/css/ionic.css"> -->
+        <!-- carousel -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    
+    <!-- <script>
         $(document).ready(function(){
             // if($("#isKizuna")
             $('#isDictionary').click(function(){
@@ -63,7 +80,7 @@
                 }
             });
         });
-    </script>
+    </script> -->
   </head>
   <body>
 		<nav class="navbar navbar-fixed-top">
@@ -75,7 +92,7 @@
             <div class="collapse navbar-toggleable-xs" id="navigation">
 				<ul class="nav navbar-nav float-sm-right">		
 					<li class="nav-item">
-						<a class="nav-link" href="#who">WHO</a>
+						<a class="nav-link" href="#who">EVENT</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#publications">PUBLICATIONS</a>
@@ -85,9 +102,9 @@
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#contact">BUY BOOKS</a>
-                    </li>
-                    <li class="nav-item">
-						<a class="nav-link" href="#social">CONNECT</a>
+                                        </li>
+                                        <li class="nav-item">
+						<a class="nav-link" href="#footer">ABOUT</a>
 					</li>
 				</ul>  
 			</div>
@@ -132,20 +149,51 @@
 		<!--END HEADER-->
        
         <!-- WHO SECTION -->
-           <section id="who">
+           <section id="who" >
+            <section class="blog_section">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 wow fadeInLeft" date-wow-delay="0.5s" data-wow-duration="1s">
-                            <h2>Who we are.....</h2>
-                            <hr align="left" width="50%">
-                            <p class="lead">About Sachi Prakashan</p>
-                            <p> </p>
-                            <a href="#footer">
-                                <button type="button" class="btn btn-who">Find out more</button>
-                            </a>
-                        </div>
-                        <div class="col-md-6 wow fadeInRight" date-wow-delay="0.5s" data-wow-duration="1s">
-                            <img class="img-fluid" src="img/Kizuna-publication.jpeg">
+                    <h2> Events</h2>
+                    <hr align="left" width="50%">
+                    <div class="blog_content">
+                        <div class="owl-carousel owl-theme">
+                            <div class="blog_item">
+                                <div class="blog_image">
+                                    <img class="img-fluid" src="img/kizuna/cevent14.png" alt="images not found">
+                                    <span><i class="icon ion-md-create"></i></span>
+                                </div>
+                                <div class="blog_details">
+                                    <div class="blog_title">
+                                        <h5><a href="#">Event 1-Book distribution to school students in parbhani.</a></h5>
+                                    </div> 
+                                    <!-- <a href="./event1.html">Read More<i class="icofont-long-arrow-right"></i></a> -->
+                                    <a href="./event1.html" class="btn btn-who">Find out more</a>
+                                   
+                                </div>
+                            </div>                        
+                            <div class="blog_item">
+                                <div class="blog_image">
+                                    <img class="img-fluid" src="img/kizuna/kizunaBook.png" alt="images not found">
+                                    <span><i class="icon ion-md-create"></i></span>
+                                </div>
+                                <div class="blog_details">
+                                    <div class="blog_title">
+                                        <h5><a href="#">Event 2- A book launch ceremony <br><br></a></h5>
+                                    </div>
+                                    <!-- <a href="#">Read More<i class="icofont-long-arrow-right"></i></a> -->
+                                    <a href="./event2.html" class="btn btn-who">Find out more</a>                                </div>
+                            </div>                        
+                            <div class="blog_item">
+                                <div class="blog_image">
+                                    <img class="img-fluid" src="img/kizuna/cevent17.png" alt="images not found">
+                                    <span><i class="icon ion-md-create"></i></span>
+                                </div>
+                                <div class="blog_details">
+                                    <div class="blog_title">
+                                        <h5><a href="#">Event 3-Book distribution to school students in parbhani.</a></h5>
+                                    </div>
+                                    <!-- <a href="#">Read More<i class="icofont-long-arrow-right"></i></a> -->
+                                    <a href="./event3.html" class="btn btn-who">Find out more</a>                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -299,100 +347,47 @@
                 </div>
             </section>
         <!-- CONATCT -->
-            <section id="contact">
-                <div class="container text-xs-center wow zoomIn" data-wow-delay="0.3s" data-wow-duration="1.5s">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h2>Contact Us...</h2>
-                            <hr width="30%">
-                            <p></p>
-                        </div>
+           <section id="contact">
+            <div class="container text-xs-center" data-wow-delay="0.3s" data-wow-duration="1.5s">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Contact Us...</h2>
+                        <hr width="30%">
+                        <p></p>
                     </div>
-                
-                    <div class="row">
-                        <div class="col-md-12">
-                            <form action="https://formspree.io/pratham.1612@gmail.com" method="POST">
-                                <div class="col-md-6">
-                                    <h2>Place Your Order</h2>
-                                    <fieldset class="form-group">
-                                        <input type="text" class="form-control form-control-sm" id="name" placeholder=" Enter Name..." name="_customer-name">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <input type="email" class="form-control form-control-sm" id="email" placeholder=" Email..." name="_reply-to">    
-                                            </div>
-                                            <div class="col-md-6">
-                                            <input type="number" class="form-control form-control-sm" id="phone" placeholder=" Contact number..." name="_phone">    
-                                            </div>                                            
-                                        </div>
-                                        <input type="text" class="form-control form-control-sm" id="subject" placeholder=" Subject... e.g.Order for Kizuna arthat Anubandh" name="_subject">
-                                    </fieldset>
-                                    <div class="row" style="text-align:left">
-                                        <div class="col-md-5">
-                                            <label><input type="checkbox" id="isDictionary" class="form-control-sm" value="">Japani-Marathi Kiryapad Kosh</label>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <label for=""> 1 Copy: ₹.550/-</label>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <input type="number" id="copiesDictionary" disabled="disabled" class="form-control form-control-sm" placeholder="Copies" name="_dictionary-copies">
-                                        </div>
-                                    </div>
-                                    <div class="row" style="text-align:left">
-                                        <div class="col-md-5">
-                                            <label><input type="checkbox" id="isKizuna" class="form-control-sm" value="">Kizuna arthat Anubandh</label>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <label for=""> 1 Copy: ₹.150/-</label>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <input type="number" id="copiesKizuna" disabled="disabled" class="form-control form-control-sm" placeholder="Copies" name="_kizua-copies">
-                                        </div>
-                                    </div>
-                                    <div class="row" style="text-align:left">
-                                        <div class="col-md-5">
-                                            <label><input type="checkbox" id="isMnn1" class="form-control-sm" value="">Minna no Nihongo: I</label>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <label for=""> 1 Copy: ₹.250/-</label>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <input type="number" id="copiesMnn1" disabled="disabled" class="form-control form-control-sm" placeholder="Copies" name="_mnn1-copies">
-                                        </div>
-                                    </div>
-                                    <div class="row" style="text-align:left">
-                                        <div class="col-md-5">
-                                            <label><input type="checkbox" id="isMnn2" class="form-control-sm" value="">Minna no Nihongo: II</label>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <label for=""> 1 Copy: ₹.250/-</label>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <input type="number" id="copiesMnn2" disabled="disabled" class="form-control form-control-sm" placeholder="Copies" name="_mnn2-copies">
-                                        </div>
-                                    </div>
-                                    <fieldset class="form-group">
-                                        <textarea class="form-control form-control-sm" id="message" placeholder="Message for us..." rows="3" name="_message"></textarea>
-                                    </fieldset>
-                                    <button type="submit" class="btn btn-outline-info btn-block">submit</button>
-                                </div>
-                                <div class="col-md-6">
-                                   
-                                </div>
-                            </form>
-                            <form action="https://formspree.io/pratham.1612@gmail.com" method="POST">
-                                <div id="subscribe" class="col-md-6">
-                                    <fieldset class="form-group">
-                                            <h2>Subscribe to our Newsletter</h2>
-                                            <p>Need to get in touch? Fill in the form below for more information:</p>
-                                        <input type="email" class="form-control form-control-sm" id="email" placeholder="Enter your Email" name="Customer Email">
-                                        <button type="submit" class="btn btn-outline-info btn-block" value="Send">Subscribe</button>        
-                                    </fieldset>
-                                </div>
-                            </form>
-                        </div>
-                    </div>    
                 </div>
-            </section>    
+            
+                <div class="row">
+                    <form target="_blank" action="https://docs.google.com/forms/d/e/1FAIpQLSdJywF1CJ9yvMGngo1BGV-oRWot_1-e3-TrfD_CHrHD6TMhbw/viewform?usp=sf_link">
+			    
+                        <div id="subscribe" class="col-md-5">
+                            <fieldset class="form-group">
+                                    <h2>Place Your Order</h2>
+                                    <p>Fill in the form below to place your order:</p>
+                                    <button type="Order" class="btn1 btn-outline-info btn-block" value="Send">Order</button>
+                                    <hr width="30%">        
+                            </fieldset>
+                        </div>
+                    </form>
+                    <form >
+                        <div  class="col-md-1">
+                       </div>
+                    </form>
+                        
+                        <form action="https://formspree.io/pratham.1612@gmail.com" method="POST">
+                            <div id="subscribe" class="col-md-6">
+                                <fieldset class="form-group">
+                                        <h2>Subscribe to our Newsletter</h2>
+                                        <p>Need to get in touch? Fill in the form below for more information:</p>
+                                    <input type="email" class="form-control form-control-sm" id="email" placeholder="Enter your Email" name="Customer Email">
+                                    <button type="submit" class="btn btn-outline-info btn-block" value="Send">Subscribe</button>        
+                                </fieldset>
+                            </div>
+                        </form>
+                </div>
+                 
+            </div>
+        </section>     
         <!-- END CONTACT -->
 
         <!-- SOCIAL SECTION-->
@@ -418,7 +413,7 @@
 
         <!-- FOOTER -->
             <section id="footer">
-                <div class="container wow fadeInUp" data-wow-delay="0.4s">
+                <div class="container">
                     <div class="col-md-8 col-sm-6">
                         <h3>About Sachi Prakashan</h3>
                         <p>"साची प्रकाशन, पुणे ही एक नवीन व आगळीवेगळी प्रकाशन संस्था २०१८ साली स्थापन झाली. आगळीवेगळी म्हणण्याची काही कारणे आहेत.
@@ -458,13 +453,46 @@
                 </div>
             </section>
         <!-- END FOOTER -->
-      <!-- jQuery first, then Tether, then Bootstrap JS. -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
-      
-       <!-- Adding wow.min.js for animation (This wow is dependent on animate.min.css)
-        Only min files are reqd-->
+       <!-- jQuery first, then Tether, then Bootstrap JS. -->
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
+     
+      <!-- Adding wow.min.js for animation (This wow is dependent on animate.min.css)
+       Only min files are reqd-->
+     
+
+ <!-- Jquery -->
+ <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+ <!-- bootstrap -->
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+ <!-- carousel -->
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+
+<script>
+ $('.owl-carousel').owlCarousel({
+   loop:true,
+   margin:10,
+   dots:false,
+   nav:true,
+   autoplay:true,   
+   smartSpeed: 3000, 
+   autoplayTimeout:4000,
+   responsive:{
+       0:{
+           items:1
+       },
+       600:{
+           items:2
+       },
+       1000:{
+           items:3
+       }
+   }
+})
+</script>
+
 	    <script src="js/wow.min.js"></script>
             <script>
                 new WOW().init();

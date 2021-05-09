@@ -1,2 +1,1 @@
-# sachi-book-site
-Private published Book Publication website under name
+#  published at https://gautamikosamkar.github.io/sachi-working.github.io/. 
