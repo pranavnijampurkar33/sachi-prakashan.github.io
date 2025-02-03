@@ -109,7 +109,6 @@
                                     <div class="blog_title">
                                         <h5><a href="#">Event 1-Book distribution to school students in parbhani.</a></h5>
                                     </div> 
-                                    <!-- <a href="./event1.html">Read More<i class="icofont-long-arrow-right"></i></a> -->
                                     <a href="./event1.html" class="btn btn-events">Find out more</a>
                                    
                                 </div>
@@ -123,7 +122,6 @@
                                     <div class="blog_title">
                                         <h5><a href="#">Event 2- A book launch ceremony <br><br></a></h5>
                                     </div>
-                                    <!-- <a href="#">Read More<i class="icofont-long-arrow-right"></i></a> -->
                                     <a href="./event2.html" class="btn btn-events">Find out more</a>                                </div>
                             </div>                        
                             <div class="blog_item">
@@ -291,7 +289,7 @@
                 </div>
             </section>
         <!-- CONATCT -->
-           <section id="contact">
+        <section id="contact">
             <div class="container text-xs-center" data-wow-delay="0.3s" data-wow-duration="1.5s">
                 <div class="row">
                     <div class="col-md-12">
@@ -300,38 +298,57 @@
                         <p></p>
                     </div>
                 </div>
-            
-                <div class="row">
-                    <form target="_blank" action="https://docs.google.com/forms/d/e/1FAIpQLSdJywF1CJ9yvMGngo1BGV-oRWot_1-e3-TrfD_CHrHD6TMhbw/viewform?usp=sf_link">
-			    
-                        <div id="subscribe" class="col-md-5">
-                            <fieldset class="form-group">
-                                    <h2>Place Your Order</h2>
+                <!-- Row containing all three sections with proper spacing -->
+                <div class="row g-4 justify-content-center">
+                    <!-- Order Online -->
+                    <div id="subscribe" class="col-md-3">
+                        <div class="p-4 border rounded shadow-sm">
+                            <form target="_blank" action="https://docs.google.com/forms/d/e/1FAIpQLSdJywF1CJ9yvMGngo1BGV-oRWot_1-e3-TrfD_CHrHD6TMhbw/viewform?usp=sf_link">
+                                <fieldset class="form-group">
+                                    <h2>Order Online</h2>
                                     <p>Fill in the form below to place your order:</p>
-                                    <button type="Order" class="btn1 btn-outline-info btn-block" value="Send">Order</button>
-                                    <hr width="30%">        
+                                    <button type="submit" class="btn btn-outline-danger btn-block">Order</button>
+                                    <hr width="30%">
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-1" style="max-width: 50px;"></div>
+                    <!-- Purchase at Store -->
+                    <div id="subscribe" class="col-md-4">
+                        <div class="p-4 border rounded shadow-sm">
+                            <fieldset class="form-group">
+                                <h2>Purchase at Store</h2>
+                                <p><strong>1. Japanese Language Teacher's Association of Pune</strong></p>
+                                <p>Flat No 2B, 1st Floor, Ghagre Residency, Survey No.105/30, 2nd lane, Bharati Niwas Lane, Karve Road, Pune 411004.</p>
+                                <p><strong>Phone:</strong> +91 7507250660, 020-25445678</p>
+                                <p><strong>Email:</strong> <a href="mailto:jlptpune@jaltap.org.in">jlptpune@jaltap.org.in</a></p>
+                                <p><a href="https://www.jaltap.org.in/contact.html" target="_blank">Visit Website</a></p>
+                                <hr width="30%">
+                                <p><strong>2. Office</strong></p>
+                                <p>754, Kasba Peth, Near Sat-toti police chowki, 2nd Floor Gurukrupa Housing Society, Pune.</p>
+                                <p><strong>Phone:</strong>+91 8407974878</p>
                             </fieldset>
                         </div>
-                    </form>
-                    <form >
-                        <div  class="col-md-1">
-                       </div>
-                    </form>
-                        
-                        <form action="https://formspree.io/pratham.1612@gmail.com" method="POST">
-                            <div id="subscribe" class="col-md-6">
+                    </div>
+                    <div class="col-md-1" style="max-width: 50px;"></div>
+                    <!-- Subscribe to Newsletter -->
+                    <div id="subscribe" class="col-md-3">
+                        <div class="p-4 border rounded shadow-sm">
+                            <form action="https://formspree.io/pratham.1612@gmail.com" method="POST">
                                 <fieldset class="form-group">
-                                        <h2>Subscribe to our Newsletter</h2>
-                                        <p>Need to get in touch? Fill in the form below for more information:</p>
-                                    <input type="email" class="form-control form-control-sm" id="email" placeholder="Enter your Email" name="Customer Email">
-                                    <button type="submit" class="btn btn-outline-info btn-block" value="Send">Subscribe</button>        
+                                    <h2>Subscribe to our Newsletter</h2>
+                                    <p>Need to get in touch? Fill in the form below for more information:</p>
+                                    <input type="email" class="form-control form-control-sm mb-2" id="email" placeholder="Enter your Email" name="Customer Email">
+                                    <button type="submit" class="btn btn-outline-danger btn-block">Subscribe</button>
+                                    <hr width="30%">
                                 </fieldset>
-                            </div>
-                        </form>
+                            </form>
+                        </div>
+                    </div>
                 </div>
-                 
             </div>
-        </section>     
+        </section>                 
         <!-- END CONTACT -->
 
         <!-- SOCIAL SECTION-->
