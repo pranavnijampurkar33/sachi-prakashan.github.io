@@ -327,6 +327,10 @@ html,body{
     color: #be2835;
     padding-top:10px;
 }
+#subscribe h3 {
+  color: #be2835;
+  padding-top:10px;
+}
 #subscribe p {
     color: #be2835;
 }
